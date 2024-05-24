@@ -1,0 +1,34 @@
+1. Why is Java a platform independent language?
+Ans :-  Java is designed so that the compiler can convert .java code to a platform independent
+        byte code so that it can run on any plateform where jre is installed.
+
+2. Why is Java not a pure object oriented language?
+Ans :-  Java Supports Premitive Data type like byte,boolean,char,short,int,float,long,double   hence
+        it is not a pure object oriented language.
+
+3. Difference between Heap and Stack Memory in java. And how java utilizes this.
+Ans :-   The Main difference b/w stack and heap memory in java is stack is used to store
+          order of method execution and local variable while heap is used to store objects
+          and uses dynamic memory allocation and deallocation at runtime.stack memory is fixed 
+          while heap memory can change on runtime.
+
+4. Can java be said to be the complete object-oriented programming language?
+Ans :-   It is not wrong if we claim java is a complete object-oriented programming language 
+         because everything in java is under the class and we can access them by creating objects.
+
+         But we can ever say that java is not a pure object oriented programming language because
+         it has directly access to  primitive data type like int,char etc. and these primitive
+         data type does not directly belongs to Integer class.
+
+5. How is Java different from C++?
+Ans :-    i) java is plateform independent as we can compile java code and convert it into byte code
+             and then run that byte code in any plateform where jre installed.
+
+          ii) java does not support pointers as it automatical manage the memory by garbage collection
+              which prevent java from buffer overflow and also inhance security.
+
+          iii) java uses jvm and sandbox which makes it more secure than c++
+
+          iv) java does not support Multiple inheritance due to avoiding the complexity of name ambiguity
+            that cause diamound problem.
+ 
