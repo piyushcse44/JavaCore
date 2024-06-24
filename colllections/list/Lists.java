@@ -68,26 +68,26 @@ public class Lists {
 
        //                         Iterator
 
-                    // LinkedList<Integer> lls = new LinkedList<>();
-                    // for(int i=0;i<10;i++)
-                    // {
-                    //     lls.add(i);
-                    // }
-                    // Iterator<Integer> it = lls.iterator();
-                    // while(it.hasNext())
-                    // {
-                    //     Integer val =  it.next();
-                    //     if(val %2==0) it.remove();
-                    //     System.out.println(val);
-                    // }
-                    //     System.out.println("outside");
+                    LinkedList<Integer> lls = new LinkedList<>();
+                    for(int i=0;i<10;i++)
+                    {
+                        lls.add(i);
+                    }
+                    Iterator<Integer> it = lls.iterator();
+                    while(it.hasNext())
+                    {
+                        Integer val =  it.next();
+                        if(val %2==0) it.remove();
+                        System.out.println(val);
+                    }
+                        System.out.println("outside");
 
-                    // it = lls.iterator();
-                    //     while(it.hasNext())
-                    // {
-                    //     Integer val =  it.next();
-                    //     System.out.println(val);
-                    // } 
+                    it = lls.iterator();
+                        while(it.hasNext())
+                    {
+                        Integer val =  it.next();
+                        System.out.println(val);
+                    } 
 
         //                     ListIterator
                      LinkedList<Integer> lls = new LinkedList<>();
@@ -120,3 +120,4 @@ public class Lists {
 
     }
 }
+
