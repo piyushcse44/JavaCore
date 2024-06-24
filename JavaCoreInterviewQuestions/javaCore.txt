@@ -31,4 +31,35 @@ Ans :-    i) java is plateform independent as we can compile java code and conve
 
           iv) java does not support Multiple inheritance due to avoiding the complexity of name ambiguity
             that cause diamound problem.
+
+6. Pointers are used in C/ C++. Why does Java not make use of pointers?
+Ans :-    pointers are quite complicated and unsafe for beginner programmer and java focus on simplicity
+          with the help of pointer we can access the memory location directly so the security also
+          get comprmise additionally using poniter can make garbage collection very slow.java uses reference 
+          and it can't be manuplated like pointer.
+
+7. What do you understand by an instance variable and a local variable?
+Ans :-    Instance variable are those variable which are accessible by all methods in a class and it is 
+          declared outside all methods and inside the class and it is also represent property of class.
+          All objects have a copy of instance variable and if we modify in a object then the variable
+          of other object does not change.
+
+          Local variable are those variable which are present with in a block ,function or constructor
+          and can only accessible inside them. The scope of local variable is also with in them. another 
+          method can't able to access them .
+
+8. What are the default values assigned to variables and instances in java?
+Ans :-    Java does not assign any default value for variable . if we don't assign any value at the time
+          of initilization of variable then it throw a compilation error whose message is "variable might
+          not be initilized" .
+
+          But For instance if we create any object then a default value according to their data type is
+          assigned into that instance  in default constructor.
+          if instance is of refrence then null value is inserted.
+          if instance is of type boolean then false is inserted and so on..
+
+9. What do you mean by data encapsulation?
+Ans :-    
+           
+
  
